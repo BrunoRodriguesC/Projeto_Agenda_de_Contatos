@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Agenda-de-Contatos</title>
+</head>
+
+<header>
+    <div class="esquerda">
+        <a href="https://portfolio-swart-nu-28.vercel.app"><h3>Desenvolvido por Bruno Rodrigues da Silva</h3></a>
+    </div>
+    <div class="direita">
+        <img src="./Imagens/contacts.png">
+        <h1>Agenda de Contatos</h1>    
+    </div>
+</header>
+
+<body>
+    <div class="container">
+        <form id="formulario_de_contatos">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato"/>
+            <input type="number" id="numero-contato" required placeholder="Telefone" min="11111111111" max="99999999999"/>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table cellspacing="0"  id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!--
+
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Agenda-de-Contatos</title>
+</head>
+<div class="container">
+    <header>
+        <h3>Bruno Rodrigues</h3>
+        <img src="./Imagens/contacts.png">
+        <h1>Agenda de Contatos</h1>
+    </header>
+    <body>
+        <form id="formulario_de_contatos">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato"/>
+            <input type="number" id="numero-contato" required placeholder="Numero do contato" min="0" max="20"/>
+            <button type="submit">Adicionar Contato</button>
+        </form>
+        <table cellspacing="0" >
+            <thead>
+                <tr>    
+                    <th>Nome do Contato</th>
+                    <th>Numero do Contato</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Média final</td>
+                    <td id="media-final-valor">---</td>
+                    <td id="media-final-resultado"><span class="resultado">---</span></td>
+                </tr>
+            </tfoot>
+    </table>
+    </body>
+</div>
+</html>
+-->
